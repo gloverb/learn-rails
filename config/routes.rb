@@ -1,4 +1,9 @@
-Rails.application.routes.draw do
+Rails.application.routes.draw do 
+
+  root to: 'visitors#new'
+  #tells its when someone visits to sent them to visitor controller? 
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
